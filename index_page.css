@@ -1,0 +1,173 @@
+/* COMMENT */
+.comment-form {
+    overflow:hidden;
+}
+.comments h3 {
+    line-height:normal;
+    text-transform:uppercase;
+    color:#333;
+    font-weight:bold;
+    margin:0 0 20px 0;
+    font-size:14px;
+    padding:0 0 0 0;
+}
+h4#comment-post-message {
+    display:none;
+    margin:0 0 0 0;
+}
+.comments{
+    clear:both;
+    margin-top:10px;
+    margin-bottom:0
+}
+.comments .comments-content{
+    font-size:13px;
+    margin-bottom:8px
+}
+.comments .comments-content .comment-thread ol{
+    text-align:left;
+    margin:13px 0;
+    padding:0
+}
+.comments .avatar-image-container {
+    background:#fff;
+    border:1px solid #DDD;
+    overflow:hidden;
+    padding:6px;
+}
+.comments .comment-block{
+    position:relative;
+    background:#fff;
+    padding:15px;
+    margin-left:60px;
+    border-left:3px solid #ddd;
+    border-top:1px solid #DDD;
+    border-right:1px solid #DDD;
+    border-bottom:1px solid #DDD;
+}
+.comments .comment-block:before {
+    content:&quot;&quot;;
+    width:0px;
+    height:0px;
+    position:absolute;
+    right:100%;
+    top:14px;
+    border-width:10px;
+    border-style:solid;
+    border-color:transparent #DDD transparent transparent;
+    display:block;
+}
+.comments .comments-content .comment-replies{
+    margin:8px 0;
+    margin-left:60px
+}
+.comments .comments-content .comment-thread:empty{
+    display:none
+}
+.comments .comment-replybox-single {
+    background:#f0f0f0;
+    padding:0;
+    margin:8px 0;
+    margin-left:60px
+}
+.comments .comment-replybox-thread {
+    background:#f0f0f0;
+    margin:8px 0 0 0;
+    padding:0;
+}
+.comments .comments-content .comment{
+    margin-bottom:6px;
+    padding:0
+}
+.comments .comments-content .comment:first-child {
+    padding:0;
+    margin:0
+}
+.comments .comments-content .comment:last-child {
+    padding:0;
+    margin:0
+}
+.comments .comment-thread.inline-thread .comment, .comments .comment-thread.inline-thread .comment:last-child {
+    margin:0px 0px 5px 30%
+}
+.comment .comment-thread.inline-thread .comment:nth-child(6) {
+    margin:0px 0px 5px 25%;
+}
+.comment .comment-thread.inline-thread .comment:nth-child(5) {
+    margin:0px 0px 5px 20%;
+}
+.comment .comment-thread.inline-thread .comment:nth-child(4) {
+    margin:0px 0px 5px 15%;
+}
+.comment .comment-thread.inline-thread .comment:nth-child(3) {
+    margin:0px 0px 5px 10%;
+}
+.comment .comment-thread.inline-thread .comment:nth-child(2) {
+    margin:0px 0px 5px 5%;
+}
+.comment .comment-thread.inline-thread .comment:nth-child(1) {
+    margin:0px 0px 5px 0;
+}
+.comments .comments-content .comment-thread{
+    margin:0;
+    padding:0
+}
+.comments .comments-content .inline-thread{
+    background:#fff;
+    border:1px solid #DDD;
+    padding:15px;
+    margin:0
+}
+.comments .comments-content .icon.blog-author {
+    display:inline;
+}
+.comments .comments-content .icon.blog-author:after {
+    content: &quot;Admin&quot;;
+    background: $(maincolor);
+    color: #fff;
+    font-size: 11px;
+    padding: 2px 5px;
+}
+.comment-header {
+    text-transform:uppercase;
+    font-size:12px;
+}
+.comments .comments-content .datetime {
+    margin-left: 6px;
+}
+.comments .comments-content .datetime a {
+    color:#888;
+}
+.comments .comment .comment-actions a {
+    display:inline-block;
+    color:#333;
+    font-weight:bold;
+    font-size:10px;
+    line-height:15px;
+    margin:4px 8px 0 0;
+}
+.comments .continue a {
+    color:#333;
+    display:inline-block;
+    font-size:10px;
+}
+.comments .comment .comment-actions a:hover, .comments .continue a:hover{
+    text-decoration:underline;
+}
+.pesan-komentar {}
+.pesan-komentar p {
+    line-height:normal;
+    margin:0 0;
+}
+.pesan-komentar:before {}
+
+.fb-comments{width: 100% !important;}
+.fb-comments iframe[style]{width: 100% !important;}
+.fb-like-box{width: 100% !important;}
+.fb-like-box iframe[style]{width: 100% !important;}
+.fb-comments span{width: 100% !important;}
+.fb-comments iframe span[style]{width: 100% !important;}
+.fb-like-box span{width: 100% !important;}
+.fb-like-box iframe span[style]{width: 100% !important;}
+.fotleft{float:left}
+.fotright{float:right;text-align:right;
