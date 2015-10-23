@@ -16,7 +16,9 @@ selectnav('menu-main', {
 });
 
 $('.set-1').mtabs();
-  
+$('.widget h2').wrapInner('<span/>');
+
+
 });
 
 jQuery(document).ready(function($){
