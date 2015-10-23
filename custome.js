@@ -15,3 +15,38 @@ selectnav('menu-main', {
 $('.set-1').mtabs();
   
 });
+
+jQuery(document).ready(function($){
+  "use strict";
+  $('#top-search a').on('click', function(e){
+    e.preventDefault();
+    $('.show-search').slideToggle('fast');
+    
+  });
+  
+  $('.to-top').click(function(){
+    $('html, body').animate({scrollTop:0},800);
+    return false;
+  });
+  
+  $('.bxslider').bxSlider({
+    adaptiveHeight:true, mode:'fade', pager:false, captions:true
+  });
+  
+  $(document).ready(function(){
+    $(".container").fitVids();
+  });
+  
+  $('.menu').slicknav({prependTo:'.menu-mobile',label:''});
+  $("#owl-demo").owlCarousel({
+    navigation:false,
+    autoHeight:false,
+    items:6,
+    itemsDesktop:[1199,3],
+    itemsDesktopSmall:[980,2],
+    itemsTablet:[768,2],
+    itemsTabletSmall:[568,1],
+    itemsMobile:[479,1]
+  });
+    
+  $("#footer-text").append("Created by <a href='http://www.soratemplates.com/'>SoraTemplates</a>. All Rights Reserved.");});
