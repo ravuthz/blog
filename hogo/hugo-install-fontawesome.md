@@ -13,8 +13,6 @@ tags:
 summary: "Install Font Awesome in Hugo static site"
 ---
 
-https://matze.rocks/posts/fontawesome_in_hugo/
-
 # Install Font Awesome in Hugo site
 
 1. Download [font awesome](https://use.fontawesome.com/releases/v5.15.4/fontawesome-free-5.15.4-web.zip) from [official website](https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/hosting-font-awesome-yourself).

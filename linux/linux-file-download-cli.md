@@ -1,7 +1,7 @@
 ---
 title: "Linux File Download Cli"
 date: 2021-12-22T14:24:02+07:00
-draft: true
+draft: false
 featured: false
 categories: 
 - "Linux"
@@ -11,8 +11,6 @@ tags:
 - "wget"
 summary: "Install and using wget in any Linux OS"
 ---
-
-https://www.tecmint.com/10-wget-command-examples-in-linux/?fbclid=IwAR05QoV6ALV131n32jt4hkmQ9fc9jl7W0YKaCyIKmLhC0TBBdWi39XAdd88
 
 # Download file with cli on Linux
 

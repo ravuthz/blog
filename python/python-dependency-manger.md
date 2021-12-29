@@ -1,7 +1,7 @@
 ---
 title: "Python Dependency Manger"
 date: 2021-12-22T13:34:16+07:00
-draft: true
+draft: false
 featured: false
 categories: 
 - "Python"
@@ -10,9 +10,6 @@ tags:
 - "Python"
 summary: "Using Peotry for Python Dependency Management"
 ---
-
-https://morioh.com/p/c077fddbe8de?fbclid=IwAR3dxD4Ff8tUqPpmXFFPlN6CdwFQrDPzAuGzeJc5za53p6fzNw6j1gqueeo
-https://python-poetry.org/docs/#installation
 
 # Python Dependency Management with Peotry
 

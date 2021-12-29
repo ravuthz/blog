@@ -1,7 +1,7 @@
 ---
 title: "Python 3.9"
 date: 2021-12-21T23:24:07+07:00
-draft: true
+draft: false
 featured: false
 categories: 
 - "Python"

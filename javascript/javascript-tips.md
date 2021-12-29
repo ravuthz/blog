@@ -1,7 +1,7 @@
 ---
 title: "Js Tips"
 date: 2021-12-21T23:23:05+07:00
-draft: true
+draft: false
 featured: false
 categories: 
 - "JavaScript"

@@ -1,7 +1,7 @@
 ---
 title: "Welcome"
 date: 2021-12-21T11:15:51+07:00
-draft: true
+draft: false
 featured: true
 categories: 
 - "Site"
