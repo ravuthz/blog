@@ -90,5 +90,4 @@ console.log(data);
 // => { key1: 'value1', key2: 'value2' }
 ```
 
-
-[Documents here](https://developer.mozilla.org/en-US/docs/Web/API/FormData/entries)
+The complete documentation is available on the [website](https://developer.mozilla.org/en-US/docs/Web/API/FormData/entries)
