@@ -36,12 +36,12 @@ open http://localhost:3000
 
 ### Example
 
-![Demo Cli](../../assets/nextjs/demo-script.png)
+![Demo Cli](/images/demo-script.png)
 
 ### Dark Theme template
 
-![Dark Theme](../../assets/nextjs/dark-theme.png)
+![Dark Theme](/images/dark-theme.png)
 
 ### Light Theme template
 
-![Light Theme](../../assets/nextjs/light-theme.png)
+![Light Theme](/images/light-theme.png)
