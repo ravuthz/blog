@@ -21,7 +21,7 @@ FormData is a useful interface for collecting data from a form.
 ## Sending FormData Directly
 
 Let's create a simple login form:
-```htmlembedded=
+```html
 <form onsubmit="submitForm(event)">
 	<p>
 		<label>Username</label>
@@ -38,7 +38,7 @@ Let's create a simple login form:
 ```
 
 We need to define event submit:
-```javascript=
+```javascript
 function submitForm(event) {
     // Prevent the form from submitting.
     event.preventDefault();
@@ -61,7 +61,7 @@ function submitForm(event) {
 ***NOTE:*** **FormData {}** It's doesn't mean formData is empty. Instead, we actually have to iterate over the field individually and build an object manually.
 
 ## Convert FormData to JSON Object
-```javascript=
+```javascript
 const data = {};
 
 formData.forEach((value, key) => (data[key] = value));
@@ -71,7 +71,7 @@ console.log(data);
 ```
 
 We can iterate through FormData other ways
-```javascript=
+```javascript
 // Create a test FormData object
 var formData = new FormData();
 formData.append('key1', 'value1');
