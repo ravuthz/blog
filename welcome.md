@@ -13,5 +13,5 @@ tags:
 
 # Welcome to be here
 
-I'm Yo Vannaravuth. I just create this site to share any knowledge what I know to you guy :) for free.
+I'm Yo Vannaravuth. I just create this site to share my knowledges and what I know to you guy :) for free.
 
