@@ -1,21 +1,23 @@
 ---
 title: "Get PostgreSQL version"
-date: 2023-06-13T12:31:00+07:00
+publishDate: 2023-06-13T12:31:00+07:00
 draft: false
 featured: true
-categories: 
-- "Site"
+categories:
+  - "Site"
 series: "Site Series"
-tags: 
-- "Blog"
-- "Site"
-- "Query"
-- "PostgreSQL"
+tags:
+  - "Blog"
+  - "Site"
+  - "Query"
+  - "PostgreSQL"
+description: "Show the Postgres-SQL version"
 ---
 
 # Show PostgreSQL version
 
 ## Using command line
+
 To display the version of PostgreSQL using **postgres** or **psql** command-line utilities, you can follow these steps:
 
 1. Find the **postgres** or **psql** with **locate**, **where** or **which** command-line
@@ -33,6 +35,7 @@ which psql
 ```
 
 2. Execute the **postgres** or **psql** command-line with **-V** or **--version** options
+
 ```bash
 postgres -V
 # postgres (PostgreSQL) 11.18
@@ -56,11 +59,11 @@ SELECT version();
 
 ```
 
-This query will return a single row containing the version information. 
+This query will return a single row containing the version information.
 
-| version |
-| :--- |
-| PostgreSQL 12.15 on x86\_64-pc-linux-gnu, compiled by gcc, a 2c4e4d7dba p 6a7005436d, 64-bit |
+| version                                                                                     |
+| :------------------------------------------------------------------------------------------ |
+| PostgreSQL 12.15 on x86_64-pc-linux-gnu, compiled by gcc, a 2c4e4d7dba p 6a7005436d, 64-bit |
 
 ```sql
 SHOW SERVER_VERSION;
@@ -71,8 +74,9 @@ SHOW SERVER_VERSION;
 +--------------+
 
 ```
-| server\_version |
-| :--- |
-| 12.15 |
+
+| server_version |
+| :------------- |
+| 12.15          |
 
 To execute this query, you can use a **PostgreSQL client** such as **psql** or any other **SQL tools** that can connect to your PostgreSQL server.

@@ -1,16 +1,16 @@
 ---
 title: "Python 3.9"
-date: 2021-12-21T23:24:07+07:00
+publishDate: 2021-12-21T23:24:07+07:00
 draft: false
 featured: false
-categories: 
-- "Python"
+categories:
+  - "Python"
 series: "Python Series"
-tags: 
-- "Python"
-- "Python-3.9"
-- "NewRealease"
-summary: "What's new in Python 3.9?"
+tags:
+  - "Python"
+  - "Python-3.9"
+  - "NewRealease"
+description: "What's new in Python 3.9?"
 ---
 
 # Merging Dictionary
@@ -24,7 +24,6 @@ dict2 = { 'x': 10, 'y': 20, 'z': 30 }
 dict3 = dict1 | dict2
 print(dict3)
 ```
-
 
 # Updating Dictionary
 

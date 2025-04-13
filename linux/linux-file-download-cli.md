@@ -1,15 +1,15 @@
 ---
 title: "Linux File Download Cli"
-date: 2021-12-22T14:24:02+07:00
+publishDate: 2021-12-22T14:24:02+07:00
 draft: false
 featured: false
-categories: 
-- "Linux"
+categories:
+  - "Linux"
 series: "Linux Series"
-tags: 
-- "Linux"
-- "wget"
-summary: "Install and using wget in any Linux OS"
+tags:
+  - "Linux"
+  - "wget"
+description: "Install and using wget in any Linux OS"
 ---
 
 # Download file with cli on Linux
@@ -35,19 +35,22 @@ sudo zypper install wget
 
 **NOTE:**
 
-The ```-y``` option used to prevent confirmation propts before installing any package.
+The `-y` option used to prevent confirmation propts before installing any package.
 
 ## wget Download file
+
 ```bash
 wget http://ftp.gnu.org/gnu/wget/wget2-2.0.0.tar.gz
 ```
 
 ## wget Download file with custom output
+
 ```bash
 wget -O wget.zip http://ftp.gnu.org/gnu/wget/wget2-2.0.0.tar.gz
 ```
 
 ## wget Download mutiple files from file content
+
 ```bash
 cat download-linux.txt
 https://releases.ubuntu.com/20.04.3/ubuntu-20.04.3-desktop-amd64.iso
