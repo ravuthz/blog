@@ -1,6 +1,6 @@
 ---
 title: "Python Dependency Manger"
-publishDate: 2021-12-22T13:34:16+07:00
+publishDate: "2021-12-22T13:34:16+07:00"
 draft: false
 featured: false
 categories:

@@ -1,6 +1,6 @@
 ---
 title: "Linux File Download Cli"
-publishDate: 2021-12-22T14:24:02+07:00
+publishDate: "2021-12-22T14:24:02+07:00"
 draft: false
 featured: false
 categories:

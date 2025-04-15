@@ -1,6 +1,6 @@
 ---
 title: "Js FormData to JSON"
-publishDate: 2022-02-04T11:30:00+07:00
+publishDate: "2022-02-04T11:30:00+07:00"
 draft: false
 featured: false
 categories:

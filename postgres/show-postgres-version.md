@@ -1,6 +1,6 @@
 ---
 title: "Get PostgreSQL version"
-publishDate: 2023-06-13T12:31:00+07:00
+publishDate: "2023-06-13T12:31:00+07:00"
 draft: false
 featured: true
 categories:

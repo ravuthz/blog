@@ -1,6 +1,6 @@
 ---
 title: NextJs Create Blog Post with Starter Template
-publishDate: 2021-12-30T09:26:37.018+07:00
+publishDate: "2021-12-30T09:26:37.018+07:00"
 tags: ["NextJs", "Blog", "Tailwind"]
 draft: false
 description: Create NextJs Blog Post with Tailwind NextJs Starter Blog

@@ -1,6 +1,6 @@
 ---
 title: "Hugo Install FontAwesome"
-publishDate: 2021-12-22T21:16:47+07:00
+publishDate: "2021-12-22T21:16:47+07:00"
 draft: true
 featured: false
 categories:
